@@ -53,13 +53,3 @@ Using R (`sf` and `terra`), this project performs a point-in-polygon spatial joi
 
 ---
 
-## 📁 Repository Structure
-```text
-.
-├── data/
-│   └── indo.marine.gpkg                # MPA Geospatial Vector Polygon File
-├── scripts/
-│   └── Extra_Credit_Project.Rmd        # Complete Spatial Analysis R Markdown
-├── outputs/
-│   └── mpa_map_plot.png                # Spatial distribution map of MPAs and boats
-├── README.md                           # Project Documentation
