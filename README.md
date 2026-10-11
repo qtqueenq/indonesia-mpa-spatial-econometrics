@@ -31,7 +31,7 @@ Using R (`sf` and `terra`), this project performs a point-in-polygon spatial joi
 1. **Spatial Join (Point-in-Polygon):** Used `st_intersects()` to compute the exact count (`pt_count`) of detected fishing boats located within each MPA polygon boundary.
 2. **Policy Coding:** Created a binary indicator (`strict.protection`) categorizing reserves under strict IUCN management classifications (Ia, II, and III).
 3. **Regression Specification:**
-   $$\text{pt\_count} = \beta_0 + \beta_1(\text{GIS\_M\_AREA}) + \beta_2(\text{STATUS\_YR}) + \beta_3(\text{strict.protection}) + u$$
+   $$\text{pt count} = \beta_0 + \beta_1(\text{GIS M AREA}) + \beta_2(\text{STATUS YR}) + \beta_3(\text{strict.protection}) + u$$
 
 ---
 
